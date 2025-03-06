@@ -8,7 +8,7 @@ let completeTaskBtn = document.getElementById("completeTaskBtn");
 completedTasks.style.display = "none";
 allTasks.style.display = "none";
 
-// document.addEventListener("DOMContentLoaded", loadTasks);
+document.addEventListener("DOMContentLoaded", loadTasks);
 
 function addTask() {
     let taskText = taskInput.value.trim();
