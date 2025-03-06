@@ -136,6 +136,7 @@ function deleteTask(taskText) {
 allTaskBtn.onclick = function () {
     allTasks.style.display = "block";
     completedTasks.style.display = "block";
+    taskList.style.display='block'
 };
 
 completeTaskBtn.onclick = function () {
